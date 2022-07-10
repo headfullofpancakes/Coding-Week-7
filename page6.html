@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--<link rel="stylesheet" href="style.css">-->
+    <link rel="stylesheet" href="style.css">
     <title>RSVP</title>
     
 </head>
@@ -13,31 +13,33 @@
 
 <body>
     <!--Nav Bar at top of page-->
-     <div class="topnav">
-        <a class="active" href="index.html">Home</a>
-        <a href="page2.html">Info</a>
-        <a href="page3.html">The Weekend</a>
-        <a href="page4.html">Lodging</a>
-        <a href="page6.html">RSVP</a>
-        <a href="page5.html">FAQ</a>
-    </div>
+    <navbar>
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html">Home</a></li>
+            <li class="nav-item"><a href="page2.html">Info</a></li>
+            <li class="nav-item"><a href="page3.html">The Weekend</a></li>
+            <li class="nav-item"><a href="page4.html">Lodging</a></li>
+            <li class="nav-item"><a href="page6.html">RSVP</a></li>
+            <li class="nav-item"><a href="page5.html">FAQ</a></li>
+        </ul>
+    </navbar>
 
     <!--RSVP FORM-->
     <div class="top">
     </div>
     <div class="form">
         <div class ="info">
-        <h1> RSVP </h1>
-        <h2> for the wedding of </h2>
-        <h1> Nora & Kevin </h1>
+        <h1 class="rsvp-header"> RSVP </h1>
+        <h2 class="rsvp-header2"> for the wedding of </h2>
+        <h1 class="rsvp-header"> Nora & Kevin </h1>
             <p class="line">________________________________________</p>
-            <h2>The Details</h2>
+            <h2 class="rsvp-header2">The Details</h2>
             <p>Saturday, August, 5, 2023</p>
             <p>TIME-- TBD </p>
             <br>
-            <h2>Ceremony & Reception</h2>
-            <p>Location Name <!--Enter Location Here--></p>
-            <p>Address <!--Enter Location Here--></p>
+            <h2 class="rsvp-header2">Ceremony & Reception</h2>
+            <p class="rsvp">Location Name <!--Enter Location Here--></p>
+            <p class="rsvp">Address <!--Enter Location Here--></p>
                 <p class="line">________________________________________</p>
             <input type="text" placeholder="Name">
             <input type="number" placeholder="# of Guests"
